@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@types/bun": "^1.4.4",
+    "bun-types": "^1.4.4"
+  },
+  "name": "@nuviotv/bun-lib",
+  "version": "1.0.0",
+  "description": "Full NuvioTV feature port from homelessbrian/NuvioTV (Kotlin → Bun/JS). 1027 files ported.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./xtream": "./xtream/index.js",
+    "./epg": "./epg/index.js",
+    "./m3u": "./m3u/index.js",
+    "./vod": "./vod/index.js",
+    "./tmdb": "./tmdb/index.js",
+    "./trakt": "./trakt/index.js",
+    "./debrid": "./debrid/index.js",
+    "./player": "./player/index.js",
+    "./tracking": "./tracking/index.js",
+    "./party": "./party/index.js",
+    "./addons": "./addons/index.js",
+    "./diagnostics": "./diagnostics/index.js",
+    "./platform": "./platform/index.js"
+  }
+}
